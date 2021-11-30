@@ -262,8 +262,20 @@ nav .nav__list ul li a:nth-child(1)::before, nav .nav__list ul li a:nth-child(2)
 }
 
 #menu .container .swiper {
+  width: 80%;
+}
+
+#menu .container .swiper .swiper-wrapper .swiper-slide {
   height: 690px;
-  width: 460px;
+  width: 460px !important;
+  background-position: center;
+}
+
+#menu .container .swiper .swiper-wrapper .swiper-slide-active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transform: 0.4s;
+          transform: 0.4s;
 }
 
 #menu .container .swiper .swiper-wrapper .swiper-slide .swiper-img {
